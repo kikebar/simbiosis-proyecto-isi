@@ -29,7 +29,7 @@ Los nombres de archivo no incluyen números de versión: el histórico y las ver
 │   ├── vision/                 Visión y alcance del proyecto
 │   ├── captura/                 Actas de captura y aclaración de requisitos
 │   ├── decisiones/              Registro de decisiones
-│   ├── requisitos/              SRS, catálogo de requisitos y glosario
+│   ├── requisitos/              SRS y catálogo de requisitos
 │   ├── calidad/                  Criterios de revisión de requisitos
 │   ├── cambios/                  Registro de solicitudes de cambio
 │   ├── modelos/                  Modelos y diagramas del proyecto

@@ -20,8 +20,6 @@ Especificación de requisitos software del Proyecto Simbiosis.
 
 ### Definiciones, acrónimos y abreviaturas
 
-Ver [glosario.md](glosario.md).
-
 ## Descripción general
 
 ## Requisitos específicos
