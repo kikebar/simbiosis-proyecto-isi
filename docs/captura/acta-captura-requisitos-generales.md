@@ -1,4 +1,4 @@
-# A03 · Acta de captura de requisitos
+# Acta de captura de requisitos generales
 
 | Campo | Valor |
 | --- | --- |

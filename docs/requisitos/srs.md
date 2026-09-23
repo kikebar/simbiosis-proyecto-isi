@@ -93,7 +93,7 @@ independiente.
 - [Documento de Visión y Alcance](../vision/vision_y_alcance.md), v2.4.
 - [Catálogo de requisitos](./catalogo-requisitos.md), registro canónico de UR,
   FR y NFR.
-- [Actas de captura de la entrevista de la sesión A03](../captura/a03-acta-captura-requisitos.md) y
+- [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md) y
   [actas de entrevistas posteriores, como las de UR-01 y UR-05](../captura/README.md), evidencia de procedencia.
 - [Guía rápida para redacción de requisitos y casos de uso](../referencias/guia-rapida-redaccion-requisitos-y-casos-de-uso.md), convenciones de redacción aplicadas en esta SRS.
 - [Modelos de análisis](../modelos/README.md).

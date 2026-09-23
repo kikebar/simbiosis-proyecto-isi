@@ -1,8 +1,8 @@
-# L02 · Acta de aclaración de UR-05: gestión de datos de salud
+# Acta de captura de requisitos de UR-05: gestión de datos de salud
 
 | Campo | Valor |
 | --- | --- |
-| Estado | Borrador pendiente de validación formal |
+| Estado | Validada y vigente |
 | Versión | 0.2 |
 | Fecha de la entrevista | No indicada en la fuente |
 | Orden de decisión | Aclaración posterior a A03; prevalece sobre sus formulaciones generales relativas a datos de salud. |
@@ -122,7 +122,7 @@ Si se validan los hallazgos de esta entrevista, la línea base deberá incluir r
 
 Esta acta conserva las decisiones expresadas durante la entrevista. Una decisión posterior que confirme, modifique o descarte cualquiera de sus hallazgos deberá registrarse con fecha, fuente y alcance, sin reescribir silenciosamente esta evidencia de captura.
 
-La página de Notion de origen no está marcada como verificada. Una vez validada, esta acta podrá utilizarse como evidencia para derivar requisitos vinculados a UR-05.
+Aunque la página de Notion de origen no está marcada como verificada, esta acta está validada y vigente como evidencia para derivar requisitos vinculados a UR-05.
 
 ## Historial de versiones
 

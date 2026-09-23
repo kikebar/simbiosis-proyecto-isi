@@ -1,8 +1,8 @@
-# L02 · Acta de aclaración de UR-01: registro en la plataforma
+# Acta de captura de requisitos de UR-01: registro en la plataforma
 
 | Campo | Valor |
 | --- | --- |
-| Estado | Borrador pendiente de validación formal |
+| Estado | Validada y vigente |
 | Versión | 0.2 |
 | Fecha de la entrevista | 01/09/2025 |
 | Orden de decisión | Aclaración posterior a A03; prevalece sobre sus formulaciones generales relativas al registro y la acreditación profesional. |
@@ -120,7 +120,7 @@ La actualización de la línea base deberá considerar, al menos, los siguientes
 
 Esta acta conserva las decisiones recogidas en la entrevista del 01/09/2025. Una decisión posterior que afecte a cualquiera de estos acuerdos deberá registrarse con su fecha, fuente y alcance, sin alterar silenciosamente este documento.
 
-Una vez validada, esta acta será una evidencia de captura para la derivación de requisitos funcionales y no funcionales asociados a UR-01.
+Esta acta es evidencia de captura para la derivación de requisitos funcionales y no funcionales asociados a UR-01.
 
 ## Historial de versiones
 
