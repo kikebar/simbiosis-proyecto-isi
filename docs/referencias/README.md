@@ -8,4 +8,4 @@ Esta carpeta **no** contiene documentos propios del proyecto: los documentos pro
 
 | Documento | Origen | Fecha de recepción |
 | --- | --- | --- |
-| | | |
+| [Guía rápida para redacción de requisitos y casos de uso](guia-rapida-redaccion-requisitos-y-casos-de-uso.md) | Material docente de Ingeniería de Software I, v1.4 | 22/09/2026 |

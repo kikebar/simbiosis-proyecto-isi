@@ -2,9 +2,9 @@
 
 | Campo | Valor |
 | --- | --- |
-| Estado | Borrador para revisión |
-| Versión | 0.1 |
-| Fecha de publicación | Pendiente de consignar |
+| Estado | Vigente |
+| Versión | 1.0 |
+| Fecha de publicación | 22/09/2026 |
 | Producto | Plataforma web para personas que conviven con enfermedad inflamatoria intestinal |
 | Documento de referencia | Documento de Visión y Alcance |
 | Finalidad | Consolidar la información de captura que debe incorporarse a la línea base de requisitos |
@@ -163,4 +163,5 @@ Los puntos abiertos no deben transformarse en requisitos definitivos hasta que e
 
 | Versión | Fecha | Cambio |
 | --- | --- | --- |
+| 1.0 | 22/09/2026 | Acta consolidada y publicada como fuente de captura para la especificación de requisitos. |
 | 0.1 | Pendiente de consignar | Primer borrador consolidado a partir de las entrevistas A y B y de las decisiones posteriores. |

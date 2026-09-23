@@ -2,10 +2,10 @@
 
 ## Catálogo de requisitos
 
-**Versión:** 1.8  
-**Fecha:** 22/09/2026  
-**Estado:** Propuesta con UR-01 y sus FR volcados desde el catálogo canónico  
-**Fuente de verdad:** este catálogo, una vez aprobado, contendrá el texto canónico de los requisitos de usuario (UR), funcionales (FR) y no funcionales (NFR).
+**Versión:** 1.9  
+**Fecha:** 23/09/2026  
+**Estado:** Base funcional consolidada: UR y FR canónicos; NFR pendientes  
+**Fuente de verdad:** este catálogo contiene el texto canónico de los requisitos de usuario (UR) y funcionales (FR). Incorporará también los requisitos no funcionales (NFR) cuando se consoliden.
 
 Este documento complementa la [Especificación de requisitos de software](./srs.md). La SRS organiza el contexto, el alcance, las decisiones pendientes y los modelos; este catálogo conserva una única copia de cada requisito y sus relaciones.
 
@@ -306,6 +306,7 @@ Los identificadores no se reutilizan ni se renumeran. Cuando se acepta un cambio
 
 | Versión | Fecha | Cambios | Requisitos afectados | Fuente o evidencia |
 | --- | --- | --- | --- | --- |
+| 1.9 | 23/09/2026 | Se declara consolidada la base funcional de partida: contiene los UR y FR canónicos y mantiene los NFR pendientes. | UR-01–UR-13, FR-001–FR-217 | Catálogo canónico de requisitos, v2.0 |
 | 1.8 | 22/09/2026 | Se actualizan las asociaciones BO–UR en el catálogo. | BO-01–BO-06, UR-04–UR-13 | Análisis de trazabilidad del catálogo |
 | 1.7 | 22/09/2026 | Se añaden asociaciones BO–UR a partir del significado de los objetivos y del alcance del proyecto. | BO-01–BO-06, UR-04–UR-13 | Análisis de trazabilidad del catálogo |
 | 1.6 | 22/09/2026 | Se incorporan UR-12 y UR-13 con sus 22 FR asociados, volcados desde el catálogo canónico de Notion v2.0. | UR-12, UR-13, FR-172–FR-187, FR-207–FR-212 | Catálogo canónico de requisitos, v2.0 |

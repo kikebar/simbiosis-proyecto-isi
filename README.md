@@ -6,10 +6,6 @@ Repositorio de ejemplo para la gestión profesional de requisitos del proyecto f
 
 Todos los documentos propios del proyecto se redactan y mantienen en **Markdown** dentro de este repositorio. Los archivos en Markdown son la fuente de verdad; cualquier exportación a otro formato (PDF u otros) es una copia derivada, no editable, publicada en [`releases/`](releases/README.md).
 
-## Flujo de revisión
-
-Los cambios en la documentación se proponen y revisan mediante **pull requests**. Ninguna modificación se incorpora directamente sin revisión.
-
 ## Líneas base
 
 Una línea base (versión estable de la documentación) se declara mediante:
@@ -23,7 +19,6 @@ Los nombres de archivo no incluyen números de versión: el histórico y las ver
 
 ```
 ├── README.md                  Este documento
-├── CONTRIBUTING.md            Normas para contribuir
 ├── CHANGELOG.md                Historial de líneas base
 ├── docs/
 │   ├── vision/                 Visión y alcance del proyecto
@@ -44,6 +39,3 @@ Los nombres de archivo no incluyen números de versión: el histórico y las ver
 - `docs/referencias/` contiene únicamente material externo o recibido; los documentos propios viven en las demás carpetas de `docs/`.
 - `releases/` contiene solo exportaciones estables; no es la fuente editable.
 
-## Contribuir
-
-Consulta [`CONTRIBUTING.md`](CONTRIBUTING.md) para el proceso de contribución.

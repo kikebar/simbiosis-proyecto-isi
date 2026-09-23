@@ -2,9 +2,9 @@
 
 ## Especificación de requisitos de software
 
-**Versión:** 0.9  
-**Fecha:** 22/09/2026  
-**Estado:** Borrador inicial para consolidar como línea base v1.0  
+**Versión:** 0.10  
+**Fecha:** 23/09/2026  
+**Estado:** Base documental con UR y FR consolidados; NFR y glosario pendientes  
 **Destinatarios:** partes interesadas del proyecto
 
 Este documento reúne la especificación de requisitos de software (SRS) de
@@ -14,9 +14,9 @@ parte de esta SRS, en la sección 9.
 
 En esta versión se fija la estructura y se incorpora el contexto confirmado en
 el Documento de Visión y Alcance y en el acta de captura de A03. Los requisitos
-de usuario, funcionales y no funcionales se consolidarán antes de publicar la
-línea base v1.0. Ningún apartado pendiente autoriza a completar información
-por suposición.
+de usuario y funcionales ya están consolidados en el catálogo. Los requisitos
+no funcionales y el glosario permanecen pendientes. Ningún apartado pendiente
+autoriza a completar información por suposición.
 
 ## Índice
 
@@ -305,12 +305,13 @@ mantener enlaces hacia sus requisitos de origen.
 
 ## Estado de la versión
 
-Esta versión 0.9 define la arquitectura documental, el contexto confirmado y
+Esta versión 0.10 define la arquitectura documental, el contexto confirmado y
 las convenciones de redacción de UR, FR y NFR. Incorpora los acuerdos de A03
 sobre el rol de nutricionista, el alcance, los idiomas, los navegadores y la
-infraestructura. También separa la SRS, que explica la especificación
-integrada y del catálogo, que es la fuente canónica de los requisitos atómicos.
-El glosario forma parte de esta SRS.
+infraestructura. También separa la SRS, que explica la especificación integrada,
+del catálogo, que es la fuente canónica de los requisitos atómicos. Los
+requisitos de usuario y funcionales ya están consolidados en el catálogo. El
+glosario forma parte de esta SRS.
 
-Antes de publicar la línea base v1.0 se consolidarán los requisitos de usuario,
-funcionales y no funcionales, el glosario y los enlaces de trazabilidad.
+Antes de publicar la línea base v1.0 se consolidarán los requisitos no
+funcionales, el glosario y los enlaces de trazabilidad.
