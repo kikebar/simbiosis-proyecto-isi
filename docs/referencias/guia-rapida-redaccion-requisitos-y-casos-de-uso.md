@@ -42,22 +42,45 @@
 
 ## **1.4. Requisitos No Funcionales (NFR)**
 
-- **Qué son:** Especifican **cómo debe funcionar el sistema**, en términos de calidad, rendimiento, seguridad, disponibilidad o restricciones.
-- **Cómo se escriben:** En forma medible y verificable. Evitan términos vagos como “rápidamente” o “fácilmente”.
+- **Qué son:** Requisitos que especifican propiedades de calidad del sistema, sus interfaces con el entorno o restricciones obligatorias que condicionan su desarrollo y operación. En esta asignatura se clasifican en requisitos de calidad (**NFR-Q**), de interfaz externa (**NFR-I**) y restricciones de diseño e implementación (**NFR-R**). Es importante no confundir estas restricciones con las **restricciones de negocio**, que son un tipo de regla de negocio que restringen o limitan las acciones que la organización, sus usuarios o sistemas pueden realizar.
+- **Cómo se escriben:** Deben ser claros, completos y verificables. Los requisitos de calidad se formulan normalmente con una métrica, un umbral y sus condiciones de medida; los de interfaz y las restricciones deben indicar el estándar, sistema externo, condición o límite aplicable y cómo comprobar su cumplimiento.
 - **Ejemplos:**
-    - *NFR-001: El sistema debe estar disponible el 99,9% del tiempo mensual.*
-    - *NFR-002: El tiempo de respuesta del sistema no debe superar los 2 segundos para el 95% de las transacciones.*
+    - *NFR-Q-001: El sistema debe mantener una disponibilidad mensual mínima del 99,9 %, excluidas las ventanas de mantenimiento planificadas.*
+    - *NFR-Q-002: Tras un incidente grave, la plataforma recuperará las funciones principales en un máximo de cuatro horas desde la declaración del incidente.*
+    - *NFR-I-001: El sistema debe intercambiar los pedidos con la pasarela de pago mediante la API especificada por el proveedor, usando JSON y OAuth 2.0.*
+    - *NFR-R-001: El sistema debe cumplir el RGPD en el tratamiento de datos personales.*
+
+### Identificación de los requisitos no funcionales
+
+Para simplificar el trabajo en la asignatura, los NFR podrán identificarse sin incluir el tipo de requisito en el código, usando la numeración `NFR-001`, `NFR-002`, `NFR-003`.
+
+La tabla en la que se describan los NFR debe incluir una columna **Tipo NFR**, con uno de estos valores:
+
+- **Calidad**: especifica una propiedad del sistema, como rendimiento, disponibilidad, seguridad o accesibilidad.
+- **Interfaz**: especifica cómo se relaciona el sistema con usuarios, dispositivos, aplicaciones o servicios externos.
+- **Restricción**: establece una obligación legal, normativa, organizativa o técnica que limita el desarrollo o la operación.
+
+Por ejemplo:
+
+| ID | Tipo NFR | Requisito |
+| --- | --- | --- |
+| NFR-001 | Calidad | La plataforma tendrá una disponibilidad mínima del 99,5 % mensual. |
+| NFR-002 | Restricción | La plataforma cumplirá las obligaciones aplicables de protección de datos. |
+| NFR-003 | Interfaz | Las pantallas cumplirán el nivel AA de WCAG 2.2. |
+
+El tipo forma parte de la información del requisito, aunque no aparezca en su identificador. De esta manera, si la clasificación de un requisito cambia en algún momento, se mantiene su identificador y solo hay que actualizar el campo **Tipo NFR**.
 
 ---
 
 ## 1.5. Reglas de Negocio (BR)
 
-- **Qué son:** una regla de negocio es una política, pauta, estándar, regulación o fórmula computacional que define o restringe algún aspecto del negocio.
+- **Qué son:** una regla de negocio es una política, pauta, estándar, regulación o fórmula computacional (cálculo de tarifas de envío, descuentos por tramos, fórmulas de cálculo del precio final…) que define o restringe algún aspecto del negocio.
+- Las **restricciones de negocio** son un tipo de regla de negocio que restringen o limitan las acciones que la organización, sus usuarios o sistemas pueden realizar. Por ejemplo: *«Un solicitante de préstamo menor de 18 años debe tener un cofirmante» o «Solo los gerentes de laboratorio pueden generar informes de exposición química de otras personas».*
 - **Cómo se escriben:** Se deben escribir a un **nivel atómico**, lo que las hace cortas, simples, reutilizables y fáciles de modificar. Para esto, se recomienda no usar lógica "o" en el lado izquierdo de una construcción "si/entonces", y evitar la lógica "y" en el lado derecho. Para lógica compleja, se pueden usar **tablas de decisiones** y **árboles de decisiones**
 - **Ejemplos:**
-    - *BR-1: "Las ventanas de tiempo de entrega son de 15 minutos, comenzando cada cuarto de hora".*
-    - *BR-2: "Las entregas deben completarse entre las 11:00 A.M. y las 2:00 P.M. hora local, inclusive".*
-    - *BR-33: "Las transmisiones de red que involucren información financiera o información de identificación personal requieren encriptación de 256 bits".*
+    - *BR-01: "Las ventanas de tiempo de entrega son de 15 minutos, comenzando cada cuarto de hora".*
+    - *BR-02: "Las entregas deben completarse entre las 11:00 A.M. y las 2:00 P.M. hora local, inclusive".*
+    - *BR-03: "La organización programará las ventanas de mantenimiento planificado entre las 02:00 y las 06:00, hora peninsular española, siempre que sea posible.".*
 
 # **2. Características de un buen requisito (según norma ISO/IEC/IEEE 29148:2018)**
 
