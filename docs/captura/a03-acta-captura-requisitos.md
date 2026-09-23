@@ -13,8 +13,8 @@
 
 | Registro | Fecha | Participantes por rol | Alcance |
 | --- | --- | --- | --- |
-| Entrevista A | Pendiente de consignar | Representación de la organización y equipo de análisis | Captura y aclaración inicial de necesidades |
-| Entrevista B | Pendiente de consignar | Representación de la organización y equipo de análisis | Confirmación y ampliación de necesidades |
+| Entrevista A | 23/09/2026 | Representación de la organización y equipo de análisis | Captura y aclaración inicial de necesidades |
+| Entrevista B | 23/09/2026 | Representación de la organización y equipo de análisis | Confirmación y ampliación de necesidades |
 | Decisiones posteriores | Pendiente de consignar | Responsables funcionales del producto | Resolución de cuestiones abiertas y contradicciones |
 
 Esta acta consolida los acuerdos recogidos en las dos entrevistas y las decisiones posteriores que los concretan. Cuando una decisión posterior modifica o resuelve una cuestión de entrevista, prevalece la decisión posterior. No sustituye a los registros originales de las entrevistas, que constituyen evidencia de captura.
