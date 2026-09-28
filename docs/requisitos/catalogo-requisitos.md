@@ -276,11 +276,14 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 
 ## 5. Requisitos no funcionales
 
-| ID | Atributo o categoría | Requisito no funcional | Ámbito | UR/FR relacionados | Método de comprobación | Estado |
+| ID | Categoría y atributo | Requisito no funcional | Ámbito (Global/Local) | UR/FR relacionados | Método de comprobación | Estado |
 | --- | --- | --- | --- | --- | --- | --- |
-| NFR-01 |  |  | global / ligado |  |  |  |
+| NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
 
-Categorías orientativas: rendimiento; seguridad y privacidad; disponibilidad y fiabilidad; usabilidad y accesibilidad; compatibilidad y portabilidad; obligaciones legales y normativas.
+Categorías y atributos: 
+1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
+2) Restricciones (NFR-R): Tecnología y entorno, Hardware, Regulaciones y estándares, Compatibilidad, Interfaces existentes, Restricciones presupuestarias y de gestión.
+3) Requisitos de interfaz externa (NFR-I): Interfaz de usuario, Interfaz de software, Interfaz de hardware, Interfaz de comunicación
 
 ## 6. Matriz de trazabilidad
 
