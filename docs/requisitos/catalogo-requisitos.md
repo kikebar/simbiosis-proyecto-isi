@@ -2,8 +2,8 @@
 
 ## Catálogo de requisitos
 
-**Versión:** 1.10  
-**Fecha:** 23/09/2026  
+**Versión:** 1.11
+**Fecha:** 24/09/2026
 **Estado:** Base funcional consolidada: UR y FR canónicos; NFR pendientes  
 **Fuente de verdad:** este catálogo contiene el texto canónico de los requisitos de usuario (UR) y funcionales (FR). Incorporará también los requisitos no funcionales (NFR) cuando se consoliden.
 
@@ -202,7 +202,7 @@ Cada NFR expresa una única condición de calidad o restricción medible y verif
 | FR-146 | El sistema debe registrar todas las acciones de moderación realizadas, incluyendo la fecha, el coordinador responsable y el detalle de la acción, para fines de auditoría. | UR-10 | — | Vigente |
 | FR-147 | El sistema debe garantizar que el contenido eliminado no sea accesible para los usuarios después de ser retirado. | UR-10 | — | Vigente |
 | FR-148 | El sistema debe proporcionar a los coordinadores estadísticas sobre los reportes recibidos, incluyendo volumen por categoría, tendencias y reincidencias de usuarios. | UR-10 | — | Vigente |
-| FR-149 | El sistema debe permitir a los coordinadores asignar roles de moderación a usuarios autorizados para colaborar en la gestión del contenido. | UR-10 | — | Vigente |
+| FR-149 | El sistema debe permitir a los coordinadores asignar roles de moderación a usuarios autorizados para colaborar en la gestión del contenido. | UR-10 | — | Retirado |
 | FR-150 | El sistema debe permitir al coordinador definir y actualizar las reglas de moderación y los criterios de bloqueo automático de contenido. | UR-10 | — | Vigente |
 | FR-151 | El sistema debe soportar moderación multilingüe, permitiendo detectar y gestionar contenido en diferentes idiomas soportados por la plataforma. | UR-10 | — | Vigente |
 | FR-152 | El sistema debe permitir a coordinadores y moderadores gestionar reportes y contenido desde dispositivos de escritorio y móviles. | UR-10 | — | Vigente |
@@ -274,6 +274,8 @@ Cada NFR expresa una única condición de calidad o restricción medible y verif
 
 FR-017 se conserva para no perder el identificador histórico, pero su estado es `Retirado`: la autenticación de dos factores queda excluida de esta fase.
 
+FR-149 se conserva para no perder el identificador histórico, pero su estado es `Retirado`: el [apartado 4 del acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md#4-foro-interacción-y-moderación) establece que el coordinador es el único rol responsable de administrar y moderar el foro.
+
 ## 5. Requisitos no funcionales
 
 | ID | Categoría y atributo | Requisito no funcional | Ámbito (Global/Local) | UR/FR relacionados | Método de comprobación | Estado |
@@ -309,6 +311,7 @@ Los identificadores no se reutilizan ni se renumeran. Cuando se acepta un cambio
 
 | Versión | Fecha | Cambios | Requisitos afectados | Fuente o evidencia |
 | --- | --- | --- | --- | --- |
+| 1.11 | 24/09/2026 | Se retira FR-149 por ser incompatible con la responsabilidad exclusiva del coordinador en la administración y moderación del foro. | FR-149 | [Acta de captura de requisitos generales, apartado 4](../captura/acta-captura-requisitos-generales.md#4-foro-interacción-y-moderación) |
 | 1.10 | 23/09/2026 | Se sustituyen los intervalos por enumeraciones explícitas de FR en las asociaciones de los UR y en la matriz de trazabilidad. | UR-01–UR-13 | Mejora de legibilidad del catálogo |
 | 1.9 | 23/09/2026 | Se declara consolidada la base funcional de partida: contiene los UR y FR canónicos y mantiene los NFR pendientes. | UR-01–UR-13, FR-001–FR-217 | Catálogo canónico de requisitos, v2.0 |
 | 1.8 | 22/09/2026 | Se actualizan las asociaciones BO–UR en el catálogo. | BO-01–BO-06, UR-04–UR-13 | Análisis de trazabilidad del catálogo |

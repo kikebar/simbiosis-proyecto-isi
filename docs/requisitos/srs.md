@@ -2,8 +2,8 @@
 
 ## Especificación de requisitos de software
 
-**Versión:** 0.10  
-**Fecha:** 23/09/2026  
+**Versión:** 0.11
+**Fecha:** 29/09/2026
 **Estado:** Base documental con UR y FR consolidados; NFR y glosario pendientes  
 **Destinatarios:** partes interesadas del proyecto
 
@@ -13,7 +13,8 @@ catálogo de requisitos, al que esta SRS enlaza sin duplicarlo. El glosario form
 parte de esta SRS, en la sección 9.
 
 En esta versión se fija la estructura y se incorpora el contexto confirmado en
-el Documento de Visión y Alcance y en el acta de captura de A03. Los requisitos
+el Documento de Visión y Alcance y en el acta de captura de requisitos generales.
+Los requisitos
 de usuario y funcionales ya están consolidados en el catálogo. Los requisitos
 no funcionales y el glosario permanecen pendientes. Ningún apartado pendiente
 autoriza a completar información por suposición.
@@ -255,9 +256,9 @@ sin una fuente confirmada.
 
 | Identificador | Decisión o pregunta | Fuente | Estado |
 | --- | --- | --- | --- |
-| DP-01 | Precisar versiones compatibles de los navegadores de uso habitual. | Acta de A03, §7.4 | Pendiente |
+| DP-01 | Precisar versiones compatibles de los navegadores de uso habitual. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §7.4 | Pendiente |
 | DP-02 | Precisar protocolos y formatos de las integraciones externas. | Sección 5.2 de esta SRS | Pendiente |
-| DP-03 | Precisar formatos regionales y condiciones verificables de localización. | Acta de A03, §7.2 | Pendiente |
+| DP-03 | Precisar formatos regionales y condiciones verificables de localización. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §7.2 | Pendiente |
 
 ## 9. Glosario
 
@@ -305,8 +306,9 @@ mantener enlaces hacia sus requisitos de origen.
 
 ## Estado de la versión
 
-Esta versión 0.10 define la arquitectura documental, el contexto confirmado y
-las convenciones de redacción de UR, FR y NFR. Incorpora los acuerdos de A03
+Esta versión 0.11 define la arquitectura documental, el contexto confirmado y
+las convenciones de redacción de UR, FR y NFR. Incorpora los acuerdos del acta
+de captura de requisitos generales
 sobre el rol de nutricionista, el alcance, los idiomas, los navegadores y la
 infraestructura. También separa la SRS, que explica la especificación integrada,
 del catálogo, que es la fuente canónica de los requisitos atómicos. Los
