@@ -2,9 +2,9 @@
 
 ## Especificación de requisitos de software
 
-**Versión:** 0.11
-**Fecha:** 29/09/2026
-**Estado:** Base documental con UR y FR consolidados; NFR y glosario pendientes  
+**Versión:** 0.13
+**Fecha:** 02/10/2026
+**Estado:** UR, FR y NFR consolidados; glosario pendiente de completar
 **Destinatarios:** partes interesadas del proyecto
 
 Este documento reúne la especificación de requisitos de software (SRS) de
@@ -14,16 +14,15 @@ parte de esta SRS, en la sección 9.
 
 En esta versión se fija la estructura y se incorpora el contexto confirmado en
 el Documento de Visión y Alcance y en el acta de captura de requisitos generales.
-Los requisitos
-de usuario y funcionales ya están consolidados en el catálogo. Los requisitos
-no funcionales y el glosario permanecen pendientes. Ningún apartado pendiente
-autoriza a completar información por suposición.
+Los requisitos de usuario, funcionales y no funcionales ya están consolidados
+en el catálogo. El glosario permanece pendiente de completar. Ningún apartado
+pendiente autoriza a completar información por suposición.
 
 ## Índice
 
 1. [Introducción](#1-introducción)
 2. [Descripción general](#2-descripción-general)
-3. [Requisitos funcionales](#3-requisitos-funcionales)
+3. [Requisitos de usuario y funcionales](#3-requisitos-de-usuario-y-funcionales)
 4. [Requisitos de datos](#4-requisitos-de-datos)
 5. [Requisitos de interfaz externa](#5-requisitos-de-interfaz-externa)
 6. [Atributos de calidad](#6-atributos-de-calidad)
@@ -50,7 +49,7 @@ los sustituyen.
 - `BO-0X` identifica un objetivo de negocio.
 - `UR-0X` identifica un requisito de usuario.
 - `FR-0XX` identifica un requisito funcional.
-- `NFR-0X` identifica un requisito no funcional.
+- `NFR-0XX` identifica un requisito no funcional.
 - `UC-0X` identifica un caso de uso cuando sea necesario enlazarlo desde otro
   artefacto.
 
@@ -154,11 +153,14 @@ confirmadas.
 Estas condiciones deberán revisarse si un cambio de alcance o una fuente nueva
 las contradice.
 
-## 3. Requisitos funcionales
+## 3. Requisitos de usuario y funcionales
 
 El [catálogo de requisitos](./catalogo-requisitos.md) contiene el texto
-canónico de los requisitos de usuario y funcionales. Es la única fuente de
-verdad para sus identificadores, redacción, asociaciones, fuentes y estado.
+canónico de los requisitos de usuario y funcionales. También recoge los
+objetivos de negocio relacionados, los requisitos no funcionales y un apartado
+para la trazabilidad con los casos de uso, aún pendiente de consolidación. Es
+la única fuente de verdad para los identificadores, la redacción y las
+asociaciones de los requisitos.
 
 Esta sección explica cómo se organizan esos requisitos dentro de la SRS y cómo
 se relacionan con los modelos de análisis. No reproduce el texto de los UR ni
@@ -223,18 +225,17 @@ Los requisitos no funcionales canónicos se mantienen en el
 [catálogo de requisitos](./catalogo-requisitos.md). Cada uno incluye
 identificador, condición comprobable, fuente y ámbito global o local.
 
-Los atributos que se revisarán incluyen rendimiento, seguridad, disponibilidad
-y fiabilidad, usabilidad y accesibilidad, compatibilidad y portabilidad, y
-obligaciones legales y normativas.
+Los NFR consolidados abarcan atributos de calidad, restricciones de diseño e
+implementación y requisitos de interfaz externa. La relación de los NFR
+locales con identificadores UR o FR concretos sigue pendiente de completar.
 
 Los requisitos legales y normativos se registrarán como NFR y no se duplicarán
 en la sección 8.
 
 ### 6.1 Organización por atributo
 
-El catálogo clasifica los NFR por rendimiento; seguridad y privacidad;
-disponibilidad y fiabilidad; usabilidad y accesibilidad; compatibilidad y
-portabilidad; y obligaciones legales y normativas.
+El catálogo distingue requisitos de calidad (`NFR-Q`), restricciones de diseño
+e implementación (`NFR-R`) y requisitos de interfaz externa (`NFR-I`).
 
 ### 6.2 Obligaciones legales y normativas
 
@@ -269,6 +270,7 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
 | --- | --- | --- |
+| Receta adaptada | Receta adecuada al perfil, las alergias y las restricciones alimentarias declaradas por el paciente; el sistema no modifica automáticamente sus ingredientes ni cantidades. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §3 |
 
 ## 10. Modelos de análisis
 
@@ -306,14 +308,14 @@ mantener enlaces hacia sus requisitos de origen.
 
 ## Estado de la versión
 
-Esta versión 0.11 define la arquitectura documental, el contexto confirmado y
+Esta versión 0.13 define la arquitectura documental, el contexto confirmado y
 las convenciones de redacción de UR, FR y NFR. Incorpora los acuerdos del acta
 de captura de requisitos generales
 sobre el rol de nutricionista, el alcance, los idiomas, los navegadores y la
 infraestructura. También separa la SRS, que explica la especificación integrada,
 del catálogo, que es la fuente canónica de los requisitos atómicos. Los
-requisitos de usuario y funcionales ya están consolidados en el catálogo. El
-glosario forma parte de esta SRS.
+requisitos de usuario, funcionales y no funcionales ya están consolidados en el
+catálogo. El glosario forma parte de esta SRS y sigue pendiente de completar.
 
-Antes de publicar la línea base v1.0 se consolidarán los requisitos no
-funcionales, el glosario y los enlaces de trazabilidad.
+Antes de publicar la línea base v1.0 se completarán el glosario y los enlaces
+de trazabilidad pendientes.
