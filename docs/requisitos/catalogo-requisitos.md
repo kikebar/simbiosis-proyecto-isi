@@ -2,7 +2,7 @@
 
 ## Catálogo de requisitos
 
-**Versión:** 1.12
+**Versión:** 1.13
 **Fecha:** 02/10/2026
 **Estado:** UR, FR y NFR de la primera versión consolidados
 **Fuente de verdad:** este catálogo contiene el texto canónico de los requisitos de usuario (UR), funcionales (FR) y no funcionales (NFR).
@@ -10,6 +10,16 @@
 Este documento complementa la [Especificación de requisitos de software](./srs.md). La SRS organiza el contexto, el alcance, las decisiones pendientes y los modelos; este catálogo conserva una única copia de cada requisito y sus relaciones.
 
 La referencia común al catálogo canónico y a la SRS aparece en la cabecera. La procedencia de cada incorporación o modificación queda registrada en el control de cambios.
+
+## Índice
+
+1. [Convenciones](#1-convenciones)
+2. [Objetivos de negocio relacionados](#2-objetivos-de-negocio-relacionados)
+3. [Requisitos de usuario](#3-requisitos-de-usuario)
+4. [Requisitos funcionales](#4-requisitos-funcionales)
+5. [Requisitos no funcionales](#5-requisitos-no-funcionales)
+6. [Matriz de trazabilidad](#6-matriz-de-trazabilidad)
+7. [Control de cambios](#7-control-de-cambios)
 
 ## 1. Convenciones
 
@@ -328,6 +338,7 @@ Los identificadores no se reutilizan ni se renumeran. Cuando se acepta un cambio
 
 | Versión | Fecha | Cambios | Requisitos afectados | Fuente o evidencia |
 | --- | --- | --- | --- | --- |
+| 1.13 | 02/10/2026 | Se añade un índice con enlaces a los apartados del catálogo. | — | Mejora de navegación |
 | 1.12 | 02/10/2026 | Se incorporan los quince NFR de la primera versión, con ámbito, procedencia y método de comprobación. NFR-007 se clasifica como Rendimiento y Mantenibilidad. | NFR-001–NFR-015 | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md) |
 | 1.11 | 24/09/2026 | Se retira FR-149 por ser incompatible con la responsabilidad exclusiva del coordinador en la administración y moderación del foro. | FR-149 | [Acta de captura de requisitos generales, apartado 4](../captura/acta-captura-requisitos-generales.md#4-foro-interacción-y-moderación) |
 | 1.10 | 23/09/2026 | Se sustituyen los intervalos por enumeraciones explícitas de FR en las asociaciones de los UR y en la matriz de trazabilidad. | UR-01–UR-13 | Mejora de legibilidad del catálogo |
