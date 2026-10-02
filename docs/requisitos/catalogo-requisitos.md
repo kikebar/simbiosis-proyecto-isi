@@ -328,7 +328,7 @@ Los identificadores no se reutilizan ni se renumeran. Cuando se acepta un cambio
 
 | Versión | Fecha | Cambios | Requisitos afectados | Fuente o evidencia |
 | --- | --- | --- | --- | --- |
-| 1.12 | 02/10/2026 | Se incorporan los quince NFR de referencia de L3, con ámbito, procedencia y método de comprobación. NFR-007 se clasifica como Rendimiento y Mantenibilidad. | NFR-001–NFR-015 | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md) |
+| 1.12 | 02/10/2026 | Se incorporan los quince NFR de la primera versión, con ámbito, procedencia y método de comprobación. NFR-007 se clasifica como Rendimiento y Mantenibilidad. | NFR-001–NFR-015 | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md) |
 | 1.11 | 24/09/2026 | Se retira FR-149 por ser incompatible con la responsabilidad exclusiva del coordinador en la administración y moderación del foro. | FR-149 | [Acta de captura de requisitos generales, apartado 4](../captura/acta-captura-requisitos-generales.md#4-foro-interacción-y-moderación) |
 | 1.10 | 23/09/2026 | Se sustituyen los intervalos por enumeraciones explícitas de FR en las asociaciones de los UR y en la matriz de trazabilidad. | UR-01–UR-13 | Mejora de legibilidad del catálogo |
 | 1.9 | 23/09/2026 | Se declara consolidada la base funcional de partida: contiene los UR y FR canónicos y mantiene los NFR pendientes. | UR-01–UR-13, FR-001–FR-217 | Catálogo canónico de requisitos, v2.0 |
